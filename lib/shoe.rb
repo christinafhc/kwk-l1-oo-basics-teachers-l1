@@ -1,46 +1,45 @@
-# Make your shoe class here!
-class Shoe
+class Shoe 
   def initialize(brand)
     @brand = brand
   end 
   
   def brand
     @brand
-  end 
+  end
   
-  def color= (color)
+  def color=(color)
     @color = color
   end 
   
-  def color  
+  def color
     @color
-  end 
+  end
   
-  def size=(num)
-    @size = num
-  end 
+  def size=(size)
+    @size = size
+  end
   
   def size
     @size
-  end 
+  end
   
-  def material= (material)
+  def material=(material)
     @material = material
-  end 
+  end
   
   def material
     @material
-  end 
+  end
   
-  def condition= (condition)
+  def condition=(condition)
     @condition = condition
-  end 
+  end
   
   def condition
     @condition
-  end 
-
+  end
+  
   def cobble
     puts "Your shoe is as good as new!"
-  end 
-end 
+  end
+end
